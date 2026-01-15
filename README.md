@@ -59,7 +59,42 @@ Do you have a job (Y/N)? why
 invalid input: why
 ```
 
-## Example Usage & Output
+## Finished Progam Example Usage & Output
 
 ```
+$ py job_title.py
+First Name: John
+Last Name: Handy
+Gender (M/F): M
+Age: 18
+Is Engineer? (Y/N): n
+Is Manager? (Y/N): n
+Mr. John Handy, Jr. Employee
+
+$ py job_title.py
+First Name: Suzy
+Last Name: Karmon
+Gender (M/F): F
+Age: 26
+Is Engineer? (Y/N): y
+Is Manager? (Y/N): n
+Ms. Suzy Karmon, Engineer
+
+$ py job_title.py
+First Name: Philip
+Last Name: Farkuat
+Gender (M/F): m
+Age: 36
+Is Engineer? (Y/N): Yes
+Is Manager? (Y/N): N
+Mr. Philip Farkuat, Sr. Engineer
+
+$ py job_title.py
+First Name: Janice
+Last Name: Dearborne
+Gender (M/F): F
+Age: 41
+Is Engineer? (Y/N): Y
+Is Manager? (Y/N): Y
+Ms. Janice Dearborne, Sr. Engineering Manager
 ```
